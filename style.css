@@ -1,0 +1,120 @@
+
+/* I'm missing the Display, overflow and proper padding. Not sure where to add these elements
+I need some help understanding where and when to use these elements  */
+body {
+    background-color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    width: 960px;
+    font-size: 18px;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+ /* .container {
+        margin: 0 auto;
+        align-content: center;
+        max-width: 960px;
+        max-height: 960px;
+        text-align: center;
+
+
+        This originally was my container for the section, however I found when i added the width 960px to the body
+        my container moved everything to the left and i was unable to change it back to being centered,
+        hence why i added the margin 0 auto to the body instead
+    } */   
+
+header {
+    height: 75px;
+    background-color: #ebebeb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 4;
+}
+
+nav{
+    height: 75px;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    line-height: 4;
+}
+
+section {
+    height: 300px;
+    width: 60%;
+    background-color: #ebebeb;
+    float: left;
+    align-content: center;
+    position: relative;
+    /* line-height:  */
+    
+}
+
+.article{
+   
+    height:  75%;
+    background: #777;
+    color: #ebebeb;
+    width: 95%;
+    /* float: left; */
+    position: absolute;
+    margin: 10px;
+    right: 1px;
+    top: 40px;
+    overflow: visible;
+    padding: 5px;
+   }
+
+    /* #content {
+        overflow:auto;
+        clear: both;
+   } */
+   
+   #headers {
+       width: 94%;
+       height: 50px;
+       margin: 15px;
+       top: 60px;
+       background-color: #ebebeb;
+       position: relative;
+       line-height: 2;
+   }
+
+   h1, p{
+       color: #777;
+   }
+   
+
+
+   #para {
+       top: 60px;
+       margin: 15px;
+    width: 94%;
+    height: 50px;
+    background-color: #ebebeb;
+    position: relative;
+    line-height: 2;
+   }
+
+
+aside {
+    
+    float: left;
+    height: 300px;
+    width: calc(40% - 20px);
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    line-height: 5;
+
+}
+
+footer {
+    /* margin-top: 20px; */
+    clear: both;
+    background-color: #ebebeb;
+    height: 75px;
+    line-height: 4;
+}
+
